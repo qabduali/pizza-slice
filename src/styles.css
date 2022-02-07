@@ -1,0 +1,46 @@
+button{
+    display: inline-block;
+    background-color: blueviolet;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover{
+    background-color: darkmagenta;
+    box-shadow: 0 2px 4px 0 #880672, 0 8px 10px 0 #880672;
+}
+p{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+.root{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.pizza, .participants{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 200px;
+}
+.participants{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
